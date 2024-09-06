@@ -8,5 +8,5 @@ resources:
 
 - ./stack/reposources.yml
 - ./stack/base-initial.yml
-- ./stack/base-stack.yml
-- ./stack/base-stack-cr.yml
+#- ./stack/base-stack.yml
+#- ./stack/base-stack-cr.yml
