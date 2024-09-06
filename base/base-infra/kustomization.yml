@@ -6,6 +6,7 @@ resources:
 # #- git-credentials.yaml
 - base-infra-source.yml
 
+# Add reposources
 # Add components from repo. base
 # - tmp-fix-logging.yaml
 # - ./stack/reposources.yaml 
