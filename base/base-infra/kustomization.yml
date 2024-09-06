@@ -6,17 +6,4 @@ resources:
 # #- git-credentials.yaml
 - base-infra-source.yml
 
-# Add reposources
-# Add components from repo. base
-# - tmp-fix-logging.yaml
-# - ./stack/reposources.yaml 
-# - ./stack/sealed-secrets.yaml 
-# - ./stack/monitoring-prometheus.yaml 
-# - ./stack/logging-operator.yaml 
-# - ./stack/tracing.yaml 
-
-# Order is important
-#- ./stack/cert-manager.yaml 
-#- ./stack/external-dns.yaml 
-#- ./stack/ingress-nginx.yaml
-#- ./stack/keycloak-operator.yaml
+- ./stack/reposources.yml
