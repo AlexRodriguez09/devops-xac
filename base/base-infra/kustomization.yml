@@ -4,6 +4,7 @@ resources:
 
 # # Link to repo. of devops
 # #- git-credentials.yaml
-- base-infra-source.yml
+- git-base-infra-source.yml
 
 - ./stack/reposources.yml
+- ./stack/base-infra.yml
