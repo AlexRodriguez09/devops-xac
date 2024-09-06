@@ -7,4 +7,6 @@ resources:
 - git-base-infra-source.yml
 
 - ./stack/reposources.yml
-- ./stack/base-infrastructure.yml
+- ./stack/base-initial.yml
+- ./stack/base-stack.yml
+- ./stack/base-stack-cr.yml
