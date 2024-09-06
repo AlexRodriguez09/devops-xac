@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./infrastructure/base-initial
+  path: ./infrastructure/base-stack
   prune: true
   sourceRef:
     kind: GitRepository
