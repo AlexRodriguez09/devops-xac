@@ -1,0 +1,32 @@
+apiVersion: k8s.keycloak.org/v2alpha1
+kind: Keycloak
+metadata:
+  name: devops-keycloak
+  namespace: keycloak
+spec:
+  instances: 1
+  http:
+    httpEnabled: true
+    httpsPort: 8443
+    httpPort: 8080
+  hostname:
+    strict: false
+    hostname: sso-devops.nuamexchange.com
+    #admin: sso-devops-admin.nuamexchange.com
+    adminUrl: https://sso-devops-admin.nuamexchange.com
+    strictBackchannel: false
+  ingress:
+    enabled: false
+  db:
+    vendor: postgres
+    database: keycloak
+    host: devops-psql-pgpool.devops-data.svc.cluster.local
+    port: 5432
+    passwordSecret: 
+      name: devops-psql-auth
+      key: admin-password
+    usernameSecret: 
+      name: devops-psql-auth
+      key: postgresql-username
+    poolInitialSize: 4
+    poolMaxSize: 20
