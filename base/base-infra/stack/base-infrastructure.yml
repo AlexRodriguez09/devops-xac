@@ -4,6 +4,7 @@ kind: Kustomization
 metadata:
   name: kustom-base-infrastructure
   namespace: flux-system
+spec:
   interval: 1m0s
   path: ./infrastructure
   prune: true
