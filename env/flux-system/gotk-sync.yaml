@@ -8,7 +8,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: resource-two
   secretRef:
     name: flux-system
   url: https://github.com/AlexRodriguez09/devops-xac.git
