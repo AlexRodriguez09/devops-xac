@@ -5,7 +5,7 @@ metadata:
   name: infrastructure-base-stack-cr
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 10m0s
   path: ./infrastructure/base-stack-cr
   prune: true
   sourceRef:
