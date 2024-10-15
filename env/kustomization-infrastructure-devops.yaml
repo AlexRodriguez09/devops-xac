@@ -13,3 +13,5 @@ spec:
     name: flux-system
   timeout: 5m0s
   wait: true
+  dependsOn:
+    - name: kustom-base-stack
