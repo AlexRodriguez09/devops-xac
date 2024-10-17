@@ -5,8 +5,10 @@ resources:
 # # Link to repo. of devops
 # #- git-credentials.yaml
 - git-base-infra-source.yaml
+- ./stack/sealed-secrets.yaml
+- ./stack/bitnami.yaml
 
-- ./stack/reposources.yaml
-#- ./stack/base-initial.yaml
+#- ./stack/reposources.yaml
+- ./stack/base-initial.yaml
 #- ./stack/base-stack.yml
 #- ./stack/base-stack-cr.yml
