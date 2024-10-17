@@ -4,6 +4,7 @@ resources:
 #- postgresql
 - nginx
 - nginx2
+- nginx3
 
 # - keycloak
 # - harbor
