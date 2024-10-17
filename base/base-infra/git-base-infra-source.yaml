@@ -8,6 +8,6 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/AlexRodriguez09/base-infraestructure-nuamx.git
+  url: https://github.com/nuamx/nuam-infraestructure-k8s-base.git
   secretRef:
     name: git-base-credentials
